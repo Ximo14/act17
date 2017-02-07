@@ -18,7 +18,7 @@
      <a href="index.php"><h1>INICIO</h1>
      <a href="total.php">TOTAL</a>
      <a href="ben_1.php">BENEFICIOS 1</a>
-     <a href="ben_1.php">BENEFICIOS 2</a>
+     <a href="ben_2.php">BENEFICIOS 2</a>
      <hr>
      <!-- MENU -->
 
@@ -46,9 +46,11 @@
         echo "</tr>";*/
       }
 
+      echo "Las ventas de la SEMANA 2 son = ".$ventasSemana2."<br><br>";
+      echo "Las gastos de la SEMANA 2 son = ".$gastosSemana2."<br><br>";;
       // BENEFICIOS SEMANA 2
       $beneficiossemana2= $ventasSemana2-$gastosSemana2;
-      echo "Los beneficios de la SEMANA 2 es = ".$beneficiossemana2;
+      echo "Los beneficios de la SEMANA 1 es = <b>".$beneficiossemana2."</b>";
        ?>
 
   </body>
